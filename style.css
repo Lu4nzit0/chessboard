@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+}
+
+#tab {
+    width: 800px;
+    height: 800px;
+    background: aqua;
+}
+
+
+.linha {
+    width: 100%;
+    height: calc(800px / 8);
+    background: orange;
+    border: 1px solid black;
+    display: flex;
+}
+
+.quadrado{
+    width: calc(100% / 8);
+    height: 100%; 
+    background: purple;
+}
+
+.preto {
+    background: black;
+}
+
+.branco {
+    background: white;
+}
